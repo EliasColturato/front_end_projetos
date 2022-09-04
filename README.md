@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+# Desenvolvedor Front End Junior - Projetos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Autor: Elias Colturato da Silva Junior
+- Desafio:
 
-## Available Scripts
+Proposta:
+Implementar uma lojinha de filmes com funcionalidade básica.
+Estória:
 
-In the project directory, you can run:
+Um de nossos clientes solicitou a implementação de uma loja de filmes em seu site.
+E você será o responsável por essa implementação visual e pela integração com a
+API. O cliente forneceu um protótipo básico do layout desejado, cabe a você
+implementar da melhor forma as telas solicitadas, queremos ver a sua criatividade
+em jogo para transformar esse protótipo em algo funcional e que cause um grande
+impacto positivo no cliente.
 
-### `yarn start`
+API: https://developers.themoviedb.org/3
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Requisitos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[] Você deverá utilizar React.js, Javascript ou jQuery;
+[] Implementar o layout da página inicial e carrinho da loja;
+[] Integração com a API de filmes TMDb;
+[] Lista de filmes retornadas da API;
+[] Carrinho de compras lateral totalmente funcional;
+[] Mostrar a quantidade de itens do carrinho no botão de abrir o carrinho.
 
-### `yarn test`
+### Requisitos desejáveis:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[] Pesquisa de filmes;
+[] Implementar checkout;
+[] Prosseguir para o checkout;
+[] Validar o preenchimento completo do formulário;
+[] Implementar máscaras nos campos de email, celular, CEP e CPF;
+[] Ao finalizar a compra, apresentar modal de sucesso.
 
-### `yarn build`
+### Itens que serão avaliados mas não obrigatórios:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[ ] Documentação;
+[ ] Testes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O Projeto foi desenvolvido com a biblioteca React.JS juntamente com algumas dependencias, sendo elas:
 
-### `yarn eject`
+- [styled-components](https://styled-components.com/docs)
+- [ion-icons](https://ionic.io/ionicons/usage)
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Os requisitos mínimos cumpridos para o projeto foram:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Boas práticas
+- Utilização doReact
+- Integração com a API
+- Reproduzir o layout
+- Estilização baseada em CSS-IN-JS, exemplo: Styled Components
+- Carrinho de Compras totalmente funcional
+- Mostrar quantidade de itens do carrinho no botão de abrir o carrinho
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Os requisistos desejáveis cumpridos para o projeto foram:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Pesquisa de filmes;
+- Implementar checkout
+- Prosseguir para o checkout
+- Documentação
 
-## Learn More
+# Iniciando o Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone este repositório em sua máquina utilizando:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+$ _git clone https://github.com/EliasColturato/front_end_projetos.git_
 
-### Code Splitting
+Instale as dependencias do projeto com o seguinte comando:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+$ _yarn install_
+ou
+$ _yarn_
 
-### Analyzing the Bundle Size
+Após a instalação das dependenciais inicie o projeto com:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+$ _yarn start_
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Api Utilizada
 
-### Advanced Configuration
+A API utilizada foi disponibilizada pelo The Movie Data Base, tendo a seguinte documentação https://developers.themoviedb.org/3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+caminho usado para comunicação dentro da aplicação: tps://api.themoviedb.org/3/movie/popular?api_key=<<api_key>>&language=pt-BR&page=1
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Construção da aplicação
 
-### `yarn build` fails to minify
+Diretórios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Routes.js (Componente de criação de rotas e funcionalidades utilizando react-router-dom)_
+
+_index.js (index que faz a ligação entre o root e a aplicação)_
+
+_index.css (estilo padrão que procede na aplicação)_
+
+- src
+
+  - pages
+
+    _Home.js (Pagina home onde engloga todos components referentes a página inicial)_
+
+    _Search.js (Página de busca dos filmes)_
+
+    _Details.js(Página de detalhes dos filmes)_
+
+    _Cart.js(Página do carrinho com todos os filmes selecionados)_
+
+  - components
+
+    _Average.js (Componente onde é possível retornar a média para cáda filme)_
+
+    _BuyButton.js (Componente de botão para a adição de produtos ao carrinho)_
+
+    _CartCard.js (Componente que mostra todos os filmes selecionados no carrinho de checkout)_
+
+    _Film.js (Componente que recebe a image, nome, nota e valor de cada filme)_
+
+    _FilmShelf.js (Componente pai que organiza a prateleira de filmes)_
+
+    _GoBack.js (Componente com botão que direciona a página inicial)_
+
+    _Header.hs (Componente de cabeçalho composto por logo, barra de pesquisa e menu de compra)_
+
+    \_SideBar.js (Componente da barra lateral que aparece quando o botão no menu é clicado)
+
+---

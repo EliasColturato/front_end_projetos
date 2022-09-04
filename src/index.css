@@ -1,3 +1,12 @@
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+button,
+img {
+  user-select: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

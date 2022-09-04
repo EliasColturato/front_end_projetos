@@ -1,0 +1,59 @@
+import React from 'react';
+import { WrapperForm } from './FormStyle';
+
+export const Form = () => {
+  return (
+    <WrapperForm>
+      <form>
+        <input
+          type="text"
+          placeholder="Nome"
+          required="required"
+          className="Name"
+        />
+        <input
+          type="text"
+          placeholder="CPF"
+          required="required"
+          className="cpf"
+        />
+        <input
+          type="text"
+          placeholder="Celular"
+          required="required"
+          className="celular"
+        />
+        <input
+          type="text"
+          placeholder="E-mail"
+          required="required"
+          className="email"
+        />
+        <input
+          type="text"
+          placeholder="CEP"
+          required="required"
+          className="cep"
+        />
+        <input
+          type="text"
+          placeholder="Endereço"
+          required="required"
+          className="endereco"
+        />
+        <input
+          type="text"
+          placeholder="Cidade"
+          required="required"
+          className="cidade"
+        />
+        <input
+          type="text"
+          placeholder="Estado"
+          required="required"
+          className="estado"
+        />
+      </form>
+    </WrapperForm>
+  );
+};
