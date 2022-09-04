@@ -18,26 +18,26 @@ API: https://developers.themoviedb.org/3
 
 ### Requisitos:
 
-[] Você deverá utilizar React.js, Javascript ou jQuery;
-[] Implementar o layout da página inicial e carrinho da loja;
-[] Integração com a API de filmes TMDb;
-[] Lista de filmes retornadas da API;
-[] Carrinho de compras lateral totalmente funcional;
-[] Mostrar a quantidade de itens do carrinho no botão de abrir o carrinho.
+- Você deverá utilizar React.js, Javascript ou jQuery;
+- Implementar o layout da página inicial e carrinho da loja;
+- Integração com a API de filmes TMDb;
+- Lista de filmes retornadas da API;
+- Carrinho de compras lateral totalmente funcional;
+- Mostrar a quantidade de itens do carrinho no botão de abrir o carrinho.
 
 ### Requisitos desejáveis:
 
-[] Pesquisa de filmes;
-[] Implementar checkout;
-[] Prosseguir para o checkout;
-[] Validar o preenchimento completo do formulário;
-[] Implementar máscaras nos campos de email, celular, CEP e CPF;
-[] Ao finalizar a compra, apresentar modal de sucesso.
+- Pesquisa de filmes;
+- Implementar checkout;
+- Prosseguir para o checkout;
+- Validar o preenchimento completo do formulário;
+- Implementar máscaras nos campos de email, celular, CEP e CPF;
+- Ao finalizar a compra, apresentar modal de sucesso.
 
 ### Itens que serão avaliados mas não obrigatórios:
 
-[ ] Documentação;
-[ ] Testes.
+- Documentação;
+- Testes.
 
 ---
 
