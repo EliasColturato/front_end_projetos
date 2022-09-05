@@ -53,7 +53,6 @@ Os requisitos mínimos cumpridos para o projeto foram:
 - Utilização doReact
 - Integração com a API
 - Reproduzir o layout
-- Estilização baseada em CSS-IN-JS, exemplo: Styled Components
 - Carrinho de Compras totalmente funcional
 - Mostrar quantidade de itens do carrinho no botão de abrir o carrinho
 
