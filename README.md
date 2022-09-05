@@ -85,7 +85,7 @@ $ _yarn start_
 
 A API utilizada foi disponibilizada pelo The Movie Data Base, tendo a seguinte documentação https://developers.themoviedb.org/3
 
-caminho usado para comunicação dentro da aplicação: tps://api.themoviedb.org/3/movie/popular?api_key=<<api_key>>&language=pt-BR&page=1
+O caminho usado para comunicação dentro da aplicação: tps://api.themoviedb.org/3/movie/popular?api_key=<<api_key>>&language=pt-BR&page=1
 
 ---
 
